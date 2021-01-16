@@ -6,8 +6,8 @@ module.exports = function (sequelize, DataTypes) {
             allowNull: false
         },
         //adding column for owner
-        owner_name: {
-            type: DataTypes.STRING,
+        owner_id: {
+            type: DataTypes.INTEGER,
             allowNull: false
         },
 
