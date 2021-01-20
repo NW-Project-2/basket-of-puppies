@@ -1,5 +1,5 @@
 $(function () {
-    $(".create-dog").on("submit", function (event) {
+    $("#create-dog").on("submit", function (event) {
         event.preventDefault();
 
         var newDog = {
@@ -18,3 +18,4 @@ $(function () {
         );
     });
 });
+

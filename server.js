@@ -28,7 +28,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // var routes = require("./controllers/dogs_controller.js");
-// app.use(routes);
+// 
 
 // Routes
 // =============================================================
