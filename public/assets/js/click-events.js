@@ -46,7 +46,7 @@ $(document).ready(function() {
         event.preventDefault();
         location.href = "/register"
     })
-    $(".complete").on("click", function(event) {
+    $(".btn").on("click", function(event) {
         event.preventDefault();
         location.href = "/"
     })
